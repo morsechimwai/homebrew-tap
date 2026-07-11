@@ -1,28 +1,28 @@
 class Ccstatus < Formula
   desc "Fast Claude Code status line with cached usage bars"
   homepage "https://github.com/morsechimwai/claude-status-line"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.3.0/ccstatus-aarch64-apple-darwin.tar.gz"
-      sha256 "3628ad96df363ee895604522fd1643f90365a7a333708b7bfac1495146372bb2"
+      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.4.0/ccstatus-aarch64-apple-darwin.tar.gz"
+      sha256 "7464591bdb6200ea372d276b62d67e6bf745d67c3a03b7d71e95007ec1682855"
     end
     on_intel do
-      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.3.0/ccstatus-x86_64-apple-darwin.tar.gz"
-      sha256 "fd1e1f00585e643ce99f5a760c2c3bc2ff92cd79fe8929bc9afc534629c03493"
+      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.4.0/ccstatus-x86_64-apple-darwin.tar.gz"
+      sha256 "d2bbb4a0dba948fe100ebb74f5955160de63c2130f524d3e5f30cbe5d8f843d9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.3.0/ccstatus-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6f4ca723efe111201faf6c1959b54b43a42cd37c85188bed162a7772be017caa"
+      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.4.0/ccstatus-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fee21fbbea8fb5ab36db3d36263414a7a3eebb91af90f0e6ef2a33d51484dcfd"
     end
     on_intel do
-      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.3.0/ccstatus-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "89d1763739b500713f04332ff34da9ebd74da00e4966254fc6d033981843f9e4"
+      url "https://github.com/morsechimwai/claude-status-line/releases/download/v0.4.0/ccstatus-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c4f3f55619cc2711c99bc765b55cb5d7d09b925547d3fa8618d0f7826eb98b30"
     end
   end
 
