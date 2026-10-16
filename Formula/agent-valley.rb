@@ -2,8 +2,8 @@ class AgentValley < Formula
   desc "Every Claude Code agent and sub-agent at a glance, in the notch of your Mac"
   homepage "https://agentvalley.app"
   url "https://github.com/morsechimwai/agent-valley.git",
-      tag:      "v0.1.0",
-      revision: "e7ceb20f71dea5bb1b56217e0e5a3d3e07a4ca02"
+      tag:      "v0.1.1",
+      revision: "5c63343a0987a23b7f8d990ccedb9de9f64e9e14"
   license "MIT"
   head "https://github.com/morsechimwai/agent-valley.git", branch: "main"
 
