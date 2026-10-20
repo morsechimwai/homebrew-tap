@@ -9,7 +9,7 @@ cask "agent-valley" do
 
   livecheck do
     url "https://github.com/morsechimwai/agent-valley/releases/latest/download/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
