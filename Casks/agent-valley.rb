@@ -1,6 +1,6 @@
 cask "agent-valley" do
-  version "0.2.1"
-  sha256 "74deaccefbe4c148c8e52304e2f168014b7b1207bf9523a5ad5fe879fbcd52be"
+  version "0.2.2"
+  sha256 "e05082d26e30986dbacfe35fc28511d02e5bd47e8759929a44d1e5970b6b9bf5"
 
   url "https://github.com/morsechimwai/agent-valley/releases/download/v#{version}/AgentValley.dmg"
   name "AgentValley"
