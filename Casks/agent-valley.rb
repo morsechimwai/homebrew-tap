@@ -24,6 +24,7 @@ cask "agent-valley" do
   ]
 
   caveats <<~EOS
+    On 0.1 from Homebrew? Run brew uninstall --formula agent-valley, or it stays installed beside us.
     Coming from 0.1 with the plugin? We moved house: copy the plugin's command from Settings once more.
     Put the crew in your terminal? Run its install command from the Actions settings once more too.
   EOS
