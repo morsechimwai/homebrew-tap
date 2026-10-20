@@ -1,19 +1,17 @@
 # homebrew-tap
 
-Homebrew formulae by morsechimwai.
+Homebrew casks by morsechimwai.
 
 ## agent-valley
 
 Every Claude Code agent and sub-agent at a glance, in the notch of your Mac.
 
 ```sh
-brew install morsechimwai/tap/agent-valley
+brew install --cask morsechimwai/tap/agent-valley
 ```
 
-Homebrew builds the app on your Mac from the source. Then open it:
+We move into Applications and keep ourselves up to date. No Homebrew? Download us at https://agentvalley.app.
 
-```sh
-open "$(brew --prefix)/opt/agent-valley/AgentValley.app"
-```
+On 0.1? Run `brew uninstall agent-valley` first. Using the plugin? Copy its command from Settings once more: we moved house. Put the crew in your terminal? Run its install command from the Actions settings once more too.
 
 Source: https://github.com/morsechimwai/agent-valley
