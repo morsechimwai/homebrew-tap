@@ -12,6 +12,6 @@ brew install --cask morsechimwai/tap/agent-valley
 
 We move into Applications and keep ourselves up to date. No Homebrew? Download us at https://agentvalley.app.
 
-On 0.1? Run `brew uninstall agent-valley` first. Using the plugin? Copy its command from Settings once more: we moved house. Put the crew in your terminal? Run its install command from the Actions settings once more too.
+On 0.1? Run `brew uninstall --formula agent-valley` first. Using the plugin? Copy its command from Settings once more: we moved house. Put the crew in your terminal? Run its install command from the Actions settings once more too.
 
 Source: https://github.com/morsechimwai/agent-valley
