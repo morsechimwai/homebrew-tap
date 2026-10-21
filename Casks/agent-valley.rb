@@ -1,6 +1,6 @@
 cask "agent-valley" do
-  version "0.2.4"
-  sha256 "93fd44bcfef5cdd23a588957bdac18f80719461443067fe00b8c8818e7701cbf"
+  version "0.2.5"
+  sha256 "53571a4075ec794266956240353d2454857d14ce49b345e8d9be6b109fed57dc"
 
   url "https://github.com/morsechimwai/agent-valley/releases/download/v#{version}/AgentValley.dmg"
   name "AgentValley"
@@ -26,6 +26,6 @@ cask "agent-valley" do
   caveats <<~EOS
     On 0.1 from Homebrew? Run brew uninstall --formula agent-valley, or it stays installed beside us.
     Coming from 0.1 with the plugin? We moved house: copy the plugin's command from Settings once more.
-    Put the crew in your terminal? Run its install command from the Actions settings once more too.
+    Put the crew in your terminal? Run its install command from the Claude Code settings once more too.
   EOS
 end
